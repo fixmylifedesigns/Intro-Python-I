@@ -10,7 +10,9 @@ import sys
 
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
-import sys
+for x in sys.argv :
+    print(x)
+    
 print("This is the name of the script: ", sys.argv[0])
 # Print out the OS platform you're using:
 # YOUR CODE HERE
