@@ -10,7 +10,7 @@ import sys
 
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
-
+print(sys.argv)
 # Print out the OS platform you're using:
 # YOUR CODE HERE
 
@@ -23,9 +23,10 @@ import os
 
 # Print the current process ID
 # YOUR CODE HERE
-
+print(os.getpid())
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-
+os.getcwd()
 # Print out your machine's login name
 # YOUR CODE HERE
+print(os.getlogin())
